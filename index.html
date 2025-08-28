@@ -3,10 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="Media/Icon.jpeg" type="image/x-icon" />
     <title>Dom Events</title>
   </head>
   <body>
+    <h1>Dom Doma Dom Dom Events</h1>
+    <!-- option 1 for event handler -->
+    <button onclick="console.log(7)">Click me</button>
+    <button onclick="console.log(63)">Another button</button>
+    <button onclick="console.log('I am clicked')">Third button</button>
+    <!-- do not use double quote here --- by calling a function -->
+    <input type="text" />
+    <br />
+    <!-- option 2 for event handler -->
+    <button onclick="makeYellow()">Make yellow</button>
+    <br />
+    <button onclick="makeRed()">Make red</button>
+    <br />
+    <!-- option 3 for event handler -- get element by id and set onclick -->
+    <button id="btn-make-blue">Make blue</button>
+    <br />
+    <!-- opton 3 for event handler different version -->
+    <button id="btn-make-purple">Make purple</button>
+    <br />
+    <!-- option 4 add event listener  -->
+    <button id="btn-make-green">Make green</button>
+
+    <br />
+    <button id="btn-make-gold">Make gold</button>
+
     <script src="JS/events.js"></script>
   </body>
 </html>
