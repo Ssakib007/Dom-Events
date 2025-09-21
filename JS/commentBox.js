@@ -11,7 +11,7 @@ document
     const commentContainer = document.getElementById("comment-container");
 
     //// create a comment paragraphn and set the innertext
-    const commentElement = document.createElement("p");
+     const commentElement = document.createElement("p");
     commentElement.classList.add("comment");
     commentElement.innerText = newComment;
 

@@ -12,13 +12,11 @@ document.getElementById("btn-login").addEventListener("click", function () {
   userInfo.innerText = "user logged in";
 });
 
-
 /// handle input text
 
-
 document.getElementById("update-btn").addEventListener("click", function () {
-  const nameInput = document.getElementById("input-name");
-  const name = nameInput.value;
-  const nameP = document.getElementById("name");
-  nameP.innerText = name;
+  // const name = nameInput.value;
+
+  document.getElementById("name").innerText =
+    document.getElementById("input-name").value;
 });
